@@ -25,7 +25,11 @@ a {
 a:hover {
     text-decoration: none;
 }
-
+a[href$=".pdf"]{
+    content: " (PDF)";
+    color: #3370d3;
+    font-style: italic;
+}
 h1 {
     font-family: Georgia, serif;
     font-weight: bold;
